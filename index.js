@@ -12,8 +12,8 @@ app.use(express.urlencoded({
 }));
 
 app.get('/tweets', (req, res) => {
-    res.send("Welcome to my Tweet!");
-});
+    res.send("Welcome to my Tweet")
+})
 
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`)
